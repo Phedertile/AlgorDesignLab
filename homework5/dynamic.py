@@ -123,8 +123,6 @@ start = timer()
 file = open("./homework5/testcase/1.2.txt", "r")
 n = int(file.readline())
 polygon = []
-flag1 = False
-flag2 = False
 # polygon = [(0, 0), (1, 0), (2, 1), (1, 2), (0, 2)]
 
 for line in file:
