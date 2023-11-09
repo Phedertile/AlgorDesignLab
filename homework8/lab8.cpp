@@ -175,7 +175,7 @@ void permutationSol(vector<int> seq,  vector<tuple<int, int, int>> triplets){
     }
 }
 int main() {
-    int n = 6;
+    int n = 10000;
     vector<int> sequence(n);
 
     for (int i = 0; i < n; i++) {
@@ -193,7 +193,7 @@ int main() {
     vector<tuple<int, int, int>> triplets = generateTriplets(sequence);
     
     cout<<"Sequence : "<<endl;
-    printVector(sequence);
+    // printVector(sequence);
 
     /* 
     Comment another line to print the wanting algorithm 
@@ -202,7 +202,7 @@ int main() {
     cout<<"New sequence : "<<endl;
 
     /*Permutation Solution*/
-    // permutationSol(sequence, triplets);
+    permutationSol(sequence, triplets);
 
     /*Divide and Conquer Solution*/
     printVector(result);

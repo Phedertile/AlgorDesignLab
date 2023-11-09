@@ -2,6 +2,19 @@
     "files.associations": {
         "iostream": "cpp",
         "tuple": "cpp",
-        "ostream": "cpp"
-    }
+        "ostream": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "chrono": "cpp"
+    },
+    "code-runner.runInTerminal": true
 }
